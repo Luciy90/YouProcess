@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouGile Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Задачи продуктов</h1>
+
+    <form id="task-form">
+      <input type="text" id="product-name" placeholder="Название продукта" required />
+      <input type="text" id="card-number" placeholder="Номер карты" required />
+      <label><input type="checkbox" id="completed" /> Выполнено</label>
+      <button type="submit">Добавить задачу</button>
+    </form>
+
+    <div id="task-list"></div>
+  </div>
+
+  <script src="settings.json" type="application/json"></script>
+  <script src="app.js"></script>
+</body>
+</html>
