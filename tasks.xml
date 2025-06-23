@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+    <task>
+        <productName>Молоко</productName>
+        <cardNumber>123456</cardNumber>
+        <completed>false</completed>
+    </task>
+</tasks>
